@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>clean</actionName>
+            <preAction>build-with-dependencies</preAction>
+            <packagings>
+                <packaging>*</packaging>
+            </packagings>
+            <goals>
+                <goal>package</goal>
+            </goals>
+            <properties>
+                <Env.JAVA_HOME>/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home</Env.JAVA_HOME>
+            </properties>
+        </action>
+    </actions>
